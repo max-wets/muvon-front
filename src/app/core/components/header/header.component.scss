@@ -1,0 +1,9 @@
+:host {
+  --content-padding: 10px;
+}
+header {
+  display: block;
+  height: 60px;
+  padding: var(--content-padding);
+  border-bottom: 1px solid var(--secondary-color);
+}
